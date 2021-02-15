@@ -1,0 +1,31 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    padding: 5vh 5vw;
+}
+
+.grid-item {
+    padding: 2vh 2vw ;
+}
+
+.profile-photo {
+    height: 50vh;
+    width: auto;
+    border-radius: 5vw;
+}
+
+h2 {
+    font-size: 3vw;
+    color:rgb(32, 35, 39);
+    margin: 1vh 1vw;
+    position: relative;
+    padding-bottom: 2vh;
+}
+
+p {
+    font-size: 1.5vw;
+    color:rgb(32, 35, 39);
+    margin: 1vh 1vw;
+    position: relative;
+    padding-bottom: 2vh;
+}
